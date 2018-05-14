@@ -1,8 +1,8 @@
 {
-  "name": "vue-express-mongo-boilerplate",
-  "version": "0.9.0",
-  "title": "Vue-Express-Mongo BoilerPlate",
-  "description": "Express NodeJS application server boilerplate with Mongo and VueJS",
+  "name": "wpt.app",
+  "version": "1.0.0",
+  "title": "WebPivotTable Application",
+  "description": "BI SaaS solution based on WebPivotTable",
   "main": "server/index.js",
   "scripts": {
     "build": "webpack --progress --colors --config build/webpack.prod.config.js",
@@ -25,23 +25,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:icebob/vue-express-mongo-boilerplate.git"
+    "url": "git@github.com:bright-sea/webapp.git"
   },
   "keywords": [
-    "boilerplate",
-    "express",
-    "mongo",
-    "vue",
-    "mongodb",
-    "hackaton",
-    "bootstrap",
-    "starter"
+    "BI",
+    "WebPivotTable",
+    "SaaS",
+    "Data Analysis",
+    "Excel",
+    "Pivot Table"
   ],
   "config": {
-    "dbName": "boilerplate"
+    "dbName": "wpt"
   },
-  "author": "Icebob",
-  "license": "MIT",
+  "author": "minghai@brightsea.ca",
   "dependencies": {
     "agenda": "0.9.1",
     "async": "2.4.1",
@@ -97,7 +94,7 @@
     "passport-localapikey-update": "0.5.0",
     "passport-twitter": "1.0.4",
     "pretty-bytes": "4.0.2",
-    "pug": "2.0.0",
+    "pug": "2.0.3",
     "require-webpack-compat": "3.0.0",
     "serve-favicon": "2.4.5",
     "slug": "0.9.1",
@@ -141,7 +138,7 @@
     "i18next-xhr-backend": "1.4.1",
     "jquery": "3.2.1",
     "json-loader": "0.5.4",
-    "marked": "0.3.6",
+    "marked": "0.3.19",
     "mocha": "3.4.2",
     "nightwatch": "0.9.15",
     "nodemon": "^1.11.0",
